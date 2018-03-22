@@ -2,7 +2,7 @@ version: "2"
 
 services:
   zurmo:
-    image: hxquangnhat/zurmo
+    build: .
     container_name: zurmo
     hostname: zurmo
     ports:
